@@ -71,7 +71,7 @@ export default class Palakai extends Component {
 export default class App extends Component {
     render() {
         return (
-            <Palakai source="http://localhost:8080/sentence"/>
+            <Palakai source="http://192.168.99.102:8080/sentence"/>
         )
     }
 };
