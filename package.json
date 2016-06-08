@@ -1,33 +1,20 @@
 {
-  "name": "react-es6-webpack-boilerplate",
-  "version": "4.0.0",
-  "description": "Boilerplate for kick starting a React Project with ES6 (Babel) and Hot reloader using Webpack.",
+  "name": "Karumpalakai",
+  "version": "1.0.0",
+  "description": "Karumpalakai - blackboard",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
     "build": "BABEL_ENV=production ./node_modules/.bin/webpack --config webpack.config.production.js",
     "lint": "./node_modules/.bin/eslint ."
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/vasanthk/react-es6-webpack-boilerplate.git"
-  },
-  "keywords": [
-    "react",
-    "es6",
-    "babel",
-    "webpack"
-  ],
-  "author": "Vasanth Krishnamoorthy (http://www.vasanthk.com)",
+  "author": "Deepan Subramani",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/vasanthk/react-es6-webpack-boilerplate/issues"
-  },
-  "homepage": "https://github.com/vasanthk/react-es6-webpack-boilerplate",
   "dependencies": {
     "react": "^0.14.5",
     "react-dom": "^0.14.5",
-    "babel-runtime": "^6.3.19"
+    "babel-runtime": "^6.3.19",
+    "jquery": "^2.2.4"
   },
   "devDependencies": {
     "babel-core": "^6.3.21",
@@ -42,6 +29,9 @@
     "eslint-plugin-react": "^2.3.0",
     "react-transform-hmr": "^1.0.1",
     "webpack": "^1.8.4",
-    "webpack-dev-server": "^1.8.0"
+    "webpack-dev-server": "^1.8.0",
+    "sass-loader": "^3.2.0",
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.1"
   }
 }
