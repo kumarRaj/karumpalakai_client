@@ -11,10 +11,11 @@
   "author": "Deepan Subramani",
   "license": "MIT",
   "dependencies": {
-    "react": "^0.14.5",
-    "react-dom": "^0.14.5",
     "babel-runtime": "^6.3.19",
-    "jquery": "^2.2.4"
+    "jquery": "^2.2.4",
+    "node-sass": "^3.13.1",
+    "react": "^0.14.5",
+    "react-dom": "^0.14.5"
   },
   "devDependencies": {
     "babel-core": "^6.3.21",
